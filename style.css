@@ -1,5 +1,5 @@
 h1{
-    background-color: #DAA520	;
+    background-color: #e4b643	;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     height: 70px;
@@ -28,11 +28,11 @@ body{
 
 }
 .card{
-    height: 280px;
-    width: 350px;
+    height: 310px;
+    width: 250px;
     margin-right: px;
     overflow: hidden;
 } 
-.row{
+/* .row{
     width: 1250px;
-}
+} */
