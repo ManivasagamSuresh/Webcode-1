@@ -10,7 +10,7 @@ async function main (){
     let statedata= await data.json();
     console.log(statedata);
 
-    
+
     // loop for each state details
     for (i=0;i<statedata.length;i++)
     {   
@@ -39,8 +39,11 @@ console.log(error);
 }
 }
 
+var boxmain=document.createElement("div");
+boxmain.setAttribute("class","container")
+
 var div = document.createElement("div");
-div.setAttribute("class","container")
+// div.setAttribute("class","container")
 div.style.textAlign="center";
 
 var heading=document.createElement("h1");
@@ -64,7 +67,7 @@ search.innerHTML="search"
 
 var line = document.createElement("hr");
 line.style.color="grey";
-line.style.width="800px"
+// line.style.width="800px"
 
 var box = document.createElement("div");
 box.setAttribute("class","box");
@@ -83,6 +86,6 @@ row.setAttribute("class","row");
 container.append(row);
 box.append(container);
 div.append(heading,div2,input,search,line)
-
-document.body.append(div,box);
+boxmain.append(div,box)
+document.body.append(boxmain);
 
