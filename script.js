@@ -1,4 +1,4 @@
-
+// function for onclick
 async function main (){
    try{
     
@@ -9,11 +9,13 @@ async function main (){
     let data = await fetch(urlroute);
     let statedata= await data.json();
     console.log(statedata);
+
     
+    // loop for each state details
     for (i=0;i<statedata.length;i++)
     {   
         let column= document.createElement("div");
-        column.setAttribute("class","col-3")
+        column.setAttribute("class","col-sm-3")
 
         let division= document.createElement("div");
         division.setAttribute("class","division");
@@ -38,6 +40,7 @@ console.log(error);
 }
 
 var div = document.createElement("div");
+div.setAttribute("class","container")
 div.style.textAlign="center";
 
 var heading=document.createElement("h1");
