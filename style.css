@@ -1,0 +1,38 @@
+h1{
+    background-color: #DAA520	;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px rgb(239, 241, 121);
+}
+body{
+    background-color: #EEE8AA	;
+}
+#div2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#brewery{
+    margin:5px 20px ;
+}
+#search:hover{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.division{
+    /* height:400px ! important ; */
+    /* width:350px; */
+    margin: 5px;
+
+}
+.card{
+    height: 280px;
+    width: 350px;
+    margin-right: px;
+    overflow: hidden;
+} 
+.row{
+    width: 1250px;
+}
